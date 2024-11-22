@@ -1,0 +1,106 @@
+.baza {
+    background-color:aliceblue;
+    height: 300px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+}
+.odin {
+    display: flex;
+    height: 100px;
+    width: 550;
+}
+.tekst1 {
+    width: 421px;
+    height: 25px;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+.dva{
+    width: 300;
+    background-color:azure;
+    display: flex;
+    justify-content: flex-start;
+}
+.plus {
+    width: 26px;
+    height: 21px;
+    margin-top: 28px;
+    margin-left: 11px;
+    border-radius: 100px;
+    background-color: aqua;
+}
+.minus {
+    width: 26px;
+    height: 21px;
+    margin-top: 28px;
+    margin-left: 11px;
+    border-radius: 100px;
+    background-color: rgb(255, 108, 108);
+}
+.vsr
+{margin-left: 6px;
+margin-top: 28px;}
+.child{
+    margin-left: 28px;
+    margin-top: 28px;
+}
+.voskl{
+    margin-left: 28px;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    margin-top: 19px;
+    background-color: rgb(113, 113, 228);
+}
+.big{
+    margin-top: 23px;
+}
+.tri{
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+}
+.bac{
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: rgb(43, 226, 171);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.bac:hover {
+    background-color: aquamarine;
+}
+.bac:active{
+    transform: translate(3px);
+    transition: 0.1s;
+}
+.plus:hover {
+    background-color: aquamarine;
+}
+.minus:hover{
+background-color: rgb(240, 148, 148);
+}
+.minus:active{
+    transform: translate(3px);
+    transition: 0.1s;
+}
+.plus:active{
+    transform: translate(3px);
+    transition: 0.1s;
+}
+
+.close {
+    font-size: 32px;
+    position: absolute;
+    top: -5px;
+    padding: -2px;
+    border-radius: 100px;
+    background: red;
+    left: 527px;
+}
